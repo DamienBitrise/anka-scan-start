@@ -10,6 +10,8 @@ curl -Ls https://veertu.com/downloads/runtime-mac-scan -o $FULL_FILE_NAME
 unzip $FULL_FILE_NAME
 rm -f $FULL_FILE_NAME
 
+envman add --key PARTIAL_FILE_NAME --value $PARTIAL_FILE_NAME
+
 cd $PARTIAL_FILE_NAME
 
 ./runtime-mac-scan-server &
