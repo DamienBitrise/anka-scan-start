@@ -14,7 +14,7 @@ envman add --key PARTIAL_FILE_NAME --value $PARTIAL_FILE_NAME
 
 cd $PARTIAL_FILE_NAME
 
-./runtime-mac-scan-server &
+( exec -a ./runtime-mac-scan-server ) &
 
 sleep 5
 
