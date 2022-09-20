@@ -1,6 +1,6 @@
 title: "Anka Scan Start"
-summary: "Anka Scan Start"
-description: "Start before installing any dependencies"
+summary: "Anka Scan Start - Run before installing any dependencies"
+description: "Anka Scan Start - Run before installing any dependencies"
 website: https://docs.veertu.com/runtime-mac-scan/
 source_code_url: https://github.com/DamienBitrise/anka-scan-start
 support_url: https://github.com/DamienBitrise/anka-scan-start/issues
@@ -16,6 +16,3 @@ project_type_tags:
 
 is_always_run: false
 is_skippable: false
-
-inputs: {}
-
